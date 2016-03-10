@@ -10,12 +10,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'github-markup', '~> 1.4'
 
+
 group	:doc do
 	gem 'sdoc', '~> 0.4.0'
 end
 
 group :development, :test do
-  gem 'spring'
+  gem 'sqlite3'
+	gem 'spring'
 end
 
 group :production do
